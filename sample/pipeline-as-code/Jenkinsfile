@@ -1,6 +1,6 @@
 node {
     stage('init'){
-        git 'https://github.com/JayeXie/workshop/sample/pipeline-as-code/Jenkinsfile'
+        git 'https://github.com/JayeXie/workshop'
     }
     stage('build'){
         sh 'cd sample/pipeline-as-code && mvn package'
